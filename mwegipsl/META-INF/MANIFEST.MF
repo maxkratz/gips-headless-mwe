@@ -4,6 +4,16 @@ Bundle-ManifestVersion: 2
 Bundle-Name: mwegipsl
 Bundle-Vendor: My Company
 Bundle-Version: 1.0.0.qualifier
+Export-Package: mwegipsl.api,
+ mwegipsl.api.gips,
+ mwegipsl.api.gips.constraint,
+ mwegipsl.api.gips.mapper,
+ mwegipsl.api.gips.mapping,
+ mwegipsl.api.gips.objective,
+ mwegipsl.api.matches,
+ mwegipsl.api.rules,
+ mwegipsl.hipe.engine,
+ mwegipsl.hipe.engine.actor
 Bundle-SymbolicName: mwegipsl; singleton:=true
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-21
