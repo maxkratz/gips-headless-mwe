@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#
+# Please be sure to setup the values according to your installation.
+# If you have any questions, feel free to write us an email.
+#
+# @author Maximilian Kratz (maximilian.kratz@es.tu-darmstadt.de)
+#
+
+export GRB_LICENSE_FILE="/home/mkratz/gurobi.lic"
+export GUROBI_HOME="/opt/gurobi1302/linux64/"
+export LD_LIBRARY_PATH="/opt/gurobi1302/linux64/lib/"
+PATH=$PATH:/opt/gurobi1302/linux64/bin/
