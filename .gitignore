@@ -1,0 +1,15 @@
+src-gen
+xtend-gen
+bin
+!/**/.gitkeep
+
+*.log
+/**/*.log
+
+**/.DS_Store
+
+**/trace_cache.bin
+
+**/problem.lp
+*.ilp
+
