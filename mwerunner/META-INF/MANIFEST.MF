@@ -4,7 +4,8 @@ Bundle-Name: mwerunner
 Bundle-SymbolicName: mwerunner
 Bundle-Version: 1.0.0.qualifier
 Require-Bundle: mwegipsl;bundle-version="1.0.0",
- mwemetamodel;bundle-version="0.0.1"
+ mwemetamodel;bundle-version="0.0.1",
+ org.emoflon.ibex.gt;bundle-version="1.0.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-17
 Automatic-Module-Name: mwerunner
 Import-Package: hipe.engine.config,
